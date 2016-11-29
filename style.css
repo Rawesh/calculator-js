@@ -1,0 +1,50 @@
+body{
+	background-image: url(img/body.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+fieldset{
+	position: relative;
+	width: 40px;
+	height: 410px;
+	background-color:grey;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+
+}
+
+#screen{
+	overflow: hidden;
+	margin-left: 110px;
+	width: 290px;
+	height: 70px;
+	background-color: green;
+	text-align:right;
+	font-size: 30px;
+}
+
+button{
+	font-weight: bolder;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+
+#C{
+	position: absolute;
+	top: -5px;
+}
+
+main{
+	width: 400px;
+	margin: 100px auto;
+}
