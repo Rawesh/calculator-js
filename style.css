@@ -1,15 +1,21 @@
 body{
-	background-image: url(img/body.jpg);
+	background-image: url(img/body1.jpg);
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
+
+
 fieldset{
+	background-image: url(img/body.jpg);
+	background-size: cover;
+	background-position: center;
 	position: relative;
 	width: 40px;
 	height: 410px;
-	background-color:grey;
+	/*background-color:grey;*/
 	border-style: solid;
 	border-color: black;
 	border-width: 3px;
@@ -27,6 +33,9 @@ fieldset{
 }
 
 button{
+	background-image: url(img/body2.jpg);
+	background-position: center;
+	background-size: cover;
 	font-weight: bolder;
 	border-style: solid;
 	border-color: black;
@@ -36,6 +45,7 @@ button{
 	margin: 5px;
 	margin-top: 10px;
 	margin-left: 20px;
+	color: white;
 
 }
 
